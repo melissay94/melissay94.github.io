@@ -1,0 +1,206 @@
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('allerta/allertastencil-regular-webfont.eot');
+	src: url('allerta/allertastencil-regular-webfont.eot?iefix') format('eot'),
+	     url('allerta/allertastencil-regular-webfont.woff') format('woff'),
+	     url('allerta/allertastencil-regular-webfont.ttf') format('truetype'),
+	     url('allerta/allertastencil-regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+      font-family: 'fontello';
+      src: url('font/fontello.eot?51137526');
+      src: url('font/fontello.eot?51137526#iefix') format('embedded-opentype'),
+           url('font/fontello.woff?51137526') format('woff'),
+           url('font/fontello.ttf?51137526') format('truetype'),
+           url('font/fontello.svg?51137526#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+/* General Element Styles */
+body {
+	background-image: url("portBackground.svg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+	
+	font-family: 'MyWebFont', 'Lucida Grande', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 150%;
+	font-family: 'Lucida Grande', sans-serif;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	color: #338b96;
+	font-size: 16px;
+}
+
+a:hover {
+	color: darkblue;
+}
+
+h4 {
+	color: #338b96;
+}
+h5 {
+	font-size: 18px;
+}
+ul {
+	list-style-type: none;
+    display: block;
+    overflow: inherit;
+    padding: 0px;
+}
+li {
+	display: inline;
+	margin: 5px;
+}
+header a {
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 10px;
+    height: 40px;
+    line-height: 100px;
+    vertical-align: bottom;
+    text-decoration: none;
+}
+/*Semantic Tag designs*/
+footer {
+	
+	color: #d8d8d9;
+	background: #6c3e79;
+	height: 120px;
+	box-shadow: 0px 5px 15px black;
+
+}
+
+/*Ids Design*/
+
+#page {
+	width: 75%;
+	margin: 0 auto;
+}
+#logo {
+	display: inline-block;
+}
+#info h3 {
+	margin-bottom: 0px;
+}
+#info h4 {
+	color: black;
+	text-align: center;
+}
+#content {
+	margin-top: 80px;
+}
+#content h4 {
+	margin-bottom: 20px;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+}
+
+/* Classes */
+
+.main {
+	background-color: rgba(245, 245, 245, 0.95);
+	max-width: 100%;
+	min-height: 550px;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 50px;
+	box-shadow: 0px 0px 15px;
+}
+
+.main h3 {
+	
+	margin-top: 0px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 50px;
+	color: #338b96;
+}
+.main a {
+	margin: 0 auto;
+}
+.contactForm {
+	width: 75%;
+	margin: 0 auto;
+}
+.introLine {
+	text-align: center;
+	font-weight: bold; 
+	color: #338b96;
+	font-size: 18px;
+}
+.questions {
+	margin-left: 130px;
+}
+.icon-facebook-rect, .icon-twitter-bird, .icon-linkedin-rect, .icon-github {
+	color: #6c3e79;
+	font-family: 'fontello', sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	margin-right: 10px;
+}
+
+.icon-facebook-rect:hover, .icon-twitter-bird:hover, .icon-linkedin-rect:hover, .icon-github:hover {
+	color: darkblue;
+}
+.media a{
+	text-decoration: none;
+}
+.media {
+	text-align: center;
+}
+.projects a{
+	display: block;
+	text-decoration: none;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.projects p{
+	display: inline;
+}
+.projects {	
+	margin-left: 20px;
+}
+.innPics {
+	text-align: center;
+}
+.innPics img{
+	display: inline;
+	margin-right: 40px;
+}
+.update {
+	display: inline;
+	margin-left: 10px;
+	float: left;
+	background: #6c3e79;
+}
+
+.update p {
+	line-height: 90%;
+	color: #BABABA;
+	font-size: 20px;
+}
+

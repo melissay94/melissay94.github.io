@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+
+<style type="text/css">
+
+	#part1, #part2, #part3 {
+		position: absolute;
+		width: 150px;
+	}
+	#part2, #part3 {
+		display: none;
+	}
+
+	#part1 {
+		background-color: red;
+	}
+
+	#part2 {
+		background-color: green;
+	}
+
+	#part3 {
+		background-color: blue;
+	}
+</style>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$( "#button1" ).click(function() {
+		$('#part1').animate( {"left": $( window ).width() }, 2000);
+		$('#part2').animate( {"left": $ ( window ).width() / 2}, 2000);
+	});
+ });	
+
+
+</script>
+</head>
+<body>
+
+	<div id="part1">
+		<p>Hello</p> 
+		<p id="button1">Click for next page</p>
+	</div>
+	<div id="part2">
+		<p>How are you?</p>
+		<a href="#" id="button2">Click for next page</a>
+		</div>
+	<div id="part3">
+		<p>Good Bye</p>
+		<a href="#" id="button3">Click for next page</a>
+		</div>
+
+</body>
+</html>
