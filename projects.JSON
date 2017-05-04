@@ -1,0 +1,52 @@
+{
+	"projects": {
+		"SamIAm": {
+			"title": "Sam I Am Recipes",
+			"tagline": "Want to try something new in the kitchen? Explore here!",
+			"link": "https://samiamrecipes.herokuapp.com",
+			"picture": "samIAmLogo.png"
+		},
+		"Edgerh": {
+			"title": "Edgerh Name Converter",
+			"tagline": "A fun converter to help make names modern and fantastic.",
+			"link": "https://kristen-mills.com/edgerh",
+			"picture": ""
+		},
+		"PageADay": {
+			"title": "Page A Day",
+			"tagline": "Just a cool place to keep track of web comics you like",
+			"link": "https://pageaday.herokuapp.com",
+			"picture": ""
+		},
+		"ButtonGrid": {
+			"title": "ButtonGrid Game",
+			"tagline": "Push some buttons and feel frustration with this simple game",
+			"link": "http://melissay94.github.io/ButtonGrid/",
+			"picture": ""
+		},
+		"SWAPI": {
+			"title": "SWAPI Flash Cards",
+			"tagline": "Need to study? Study Star Wars Flash Cards instead!",
+			"link": "http://swapiflashcards.herokuapp.com/",
+			"picture": ""
+		},
+		"AuditioAid": {
+			"title": "Audition Aid",
+			"tagline": "Find the perfect musical theater audition piece",
+			"link": "http://maggiehewitt.net/auditionAid/index.html",
+			"picture": ""
+		},
+		"Mea Ola": {
+			"title": "Mea Ola Creature Game",
+			"tagline": "",
+			"link": "",
+			"picture": "",
+		},
+		"ProjectMew": {
+			"title": "Crazy Cat Lady Tower Defense 2016 Spoopy Edition",
+			"tagline": "Don't let that nasty Slime Warlock get your cats!",
+			"link":"",
+			"picture":""
+		},
+	}
+}
