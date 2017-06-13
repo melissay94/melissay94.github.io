@@ -22,55 +22,74 @@
  
 body {
     font-family: "MyWebFont", "Lucinda Grande", sans-serif;
+    background-color: #eee;
 }
 
 p {
     font-family: "Lucinda Grande", sans-serif;
 }
 
-.nav {
-        float: right;
-        padding: 10px;
-        font-family: "Lucinda Grande", sans-serif;
+#intro {
+  background: #eee url("../images/siteImage.png") no-repeat right;
+  margin-bottom: 0px;
 }
 
-.nav-pills > li > a {
-    color: #6c3e79;
-    font-weight: bolder;
+#intro .container {
+  width: 85%;
 }
 
-.nav-pills > li.active > a {
-    background-color: #50878e;
-}
-
-.jumbotron {
-        height: 100vh;
-}
-
-.col-md-5 {
-        text-align: center;
-        padding: 20px;
-        margin-top: 35vh;
-}
-
-.col-md-5 h1{
+#intro h1{
     color: #50878e;
     font-size: 90px;
 }
-.col-md-5 h3{
-    font-size: 25px;
-    margin-top: 5px;
+
+#intro h3{
+    font-size: 30px;
 }
 
-.col-md-4 {
-    width:50%;
+#work {
+  background-color: #50878e;
+  min-height: 75vh;
 }
 
-.col-md-4 img {
-    margin-top:150px;
-    width: 100%;
-    height: auto;
-    opacity: 70%;
+#work #portfolio {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#work .slide {
+  background-color: #eee;
+  margin: 5px;
+  height: 300px;
+  padding: 15px;
+}
+
+#work .test {
+  position: absolute;
+  bottom: 5px;
+  width: 5%;
+}
+
+#work .row {
+  width: 115.2%;
+  background-color: rgba(50, 50, 50, .8);
+  color: #ddd;
+  min-height: 100px;
+}
+
+#work img {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#work h3 {
+  font-size: 20px;
+}
+
+#work p {
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 .icon-doc-text-inv, .icon-linkedin, .icon-github {
