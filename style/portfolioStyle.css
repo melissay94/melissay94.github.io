@@ -56,13 +56,14 @@ p {
 
 #work {
   background-color: #50878e;
-  min-height: 75vh;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
 #work #portfolio {
   width: 85%;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .slick-prev {
@@ -123,6 +124,27 @@ p {
 #work p {
   font-size: 16px;
   margin-top: 15px;
+}
+
+#work a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#work .fa-link {
+  color: #eee;
+}
+
+#work .fa-link:hover {
+  color: #ccc;
+}
+
+#work .fa-circle {
+  color: #6c3e79;
+}
+
+#work .fa-circle:hover {
+  color: #563261;
 }
 
 #summary .row {
@@ -198,6 +220,6 @@ p {
   color: #6c3e79;
 }
 
-#socialMedia .fa-circle {
+#socialMedia .fa-circle:hover {
   color: #563261;
 }

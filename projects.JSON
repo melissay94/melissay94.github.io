@@ -21,7 +21,7 @@
 		{
 			"title": "Audition Aid",
 			"tagline": "Find the perfect musical theater audition piece",
-			"link": "http://maggiehewitt.net/auditionAid/index.html",
+			"link": "https://devpost.com/software/audition-aid",
 			"picture": "images/AuditionAid.png"
 		},
 		{
@@ -32,8 +32,8 @@
 		},
 		{
 			"title": "Mea Ola Creature Game",
-			"tagline": "",
-			"link": "",
+			"tagline": "A virtual pet to live in your browser!",
+			"link": "https://devpost.com/software/mea-ola",
 			"picture": "images/MeaOlaPic.jpg"
 		},
 		{
@@ -43,15 +43,15 @@
 			"picture": "images/Edgerh.PNG"
 		},
 		{
-			"title": "Crazy Cat Lady Tower Defense 2016 Spoopy Edition",
+			"title": "Crazy Cat Lady Tower Defense Game",
 			"tagline": "Don't let that nasty Slime Warlock get your cats!",
-			"link":"",
+			"link":"https://www.youtube.com/watch?time_continue=3&v=rsvNFkH2nyI",
 			"picture":"images/TowerDefense.jpg"
 		},
 		{
 			"title": "SneakSpeak",
 			"tagline": "Helping users with their fly kicks since 2017",
-			"link": "",
+			"link": "https://devpost.com/software/sneakspeak",
 			"picture": "images/SneakSpeak.jpg"
 		}
 	]
