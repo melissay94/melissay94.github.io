@@ -1,10 +1,10 @@
-# Personal Site
-*To display my works*
+# Portfolio Site
 
 Link: http://melissay94.github.io "My page"
 
 ## Currently using the following: 
-+ The Web Font Tenderness from https://www.fontsquirrel.com/fonts/tenderness
-+ Fontello Icons
++ FontAwesome 
 + Bootstrap 3
-+ Slickjs - A carousel library from https://github.com/kenwheeler/slick/
++ JQuery 1.10.2
++ Slickjs - A carousel library https://github.com/kenwheeler/slick/
++ The Web Font Tenderness https://www.fontsquirrel.com/fonts/tenderness
