@@ -1,12 +1,6 @@
 {
 	"projects": [
 		{
-			"title": "Edgerh Name Converter",
-			"tagline": "A fun converter to help make names modern and fantastic.",
-			"link": "https://kristen-mills.com/edgerh",
-			"picture": "images/Edgerh.PNG"
-		},
-		{
 			"title": "Page A Day",
 			"tagline": "Just a cool place to keep track of web comics you like",
 			"link": "https://pageaday.herokuapp.com",
@@ -40,7 +34,13 @@
 			"title": "Mea Ola Creature Game",
 			"tagline": "",
 			"link": "",
-			"picture": "images/MeaOlaArena.png"
+			"picture": "images/MeaOlaPic.jpg"
+		},
+		{
+			"title": "Edgerh Name Converter",
+			"tagline": "A fun converter to help make names modern and fantastic.",
+			"link": "https://kristen-mills.com/edgerh",
+			"picture": "images/Edgerh.PNG"
 		},
 		{
 			"title": "Crazy Cat Lady Tower Defense 2016 Spoopy Edition",

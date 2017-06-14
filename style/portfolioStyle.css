@@ -11,11 +11,11 @@
 
 @font-face {
       font-family: 'fontello';
-      src: url('font/fontello.eot?51137526');
-      src: url('font/fontello.eot?51137526#iefix') format('embedded-opentype'),
-           url('font/fontello.woff?51137526') format('woff'),
-           url('font/fontello.ttf?51137526') format('truetype'),
-           url('font/fontello.svg?51137526#fontello') format('svg');
+      src: url('font/fontello.eot?32201686');
+      src: url('font/fontello.eot?32201686#iefix') format('embedded-opentype'),
+           url('font/fontello.woff?32201686') format('woff'),
+           url('font/fontello.ttf?32201686') format('truetype'),
+           url('font/fontello.svg?32201686#fontello') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -34,6 +34,12 @@ p {
   margin-bottom: 0px;
 }
 
+@media only screen and (max-width: 1200px) {
+  #intro {
+    background-position: top;
+  }
+}
+
 #intro .container {
   width: 85%;
 }
@@ -41,6 +47,18 @@ p {
 #intro h1{
     color: #50878e;
     font-size: 90px;
+}
+
+@media only screen and (max-width: 645px) {
+  #intro h1 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  #intro h1 {
+    font-size: 55px;
+  }
 }
 
 #intro h3{
@@ -56,6 +74,19 @@ p {
   width: 85%;
   margin: 0 auto;
   padding-top: 50px;
+}
+
+.slick-prev {
+  left: -40px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #6c3e79 !important;
+  font-size: 35px !important;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  color:  #563261 !important;
 }
 
 #work .slide {
@@ -78,6 +109,19 @@ p {
   min-height: 100px;
 }
 
+@media only screen and (max-width: 1024px) {
+  #work .row {
+    width: 129.2%;
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #work .row {
+    width: 149.2%;
+  }
+}
+
 #work img {
   width: 65%;
   margin: 0 auto;
@@ -92,15 +136,79 @@ p {
   margin-top: 15px;
 }
 
-.icon-doc-text-inv, .icon-linkedin, .icon-github {
-	color: #6c3e79;
-	font-family: 'fontello', sans-serif;
-	font-size: 40px;
-	font-style: normal;
-	margin: 20px;
+#summary .row {
+  margin:0px;
 }
 
-.icon-facebook-rect:hover, .icon-twitter-bird:hover, .icon-linkedin-rect:hover, .icon-github:hover {
-	color: darkblue;
-    text-decoration: none;
+#summary #selfie {
+  width: 80%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 990px) {
+  #summary #selfie {
+    width: 50%;
+  }
+}
+
+#summary h4 {
+  font-size: 45px;
+  color: #50878e;
+}
+
+#summary li {
+  font-size: 20px;
+  font-family: "Lucinda Grande", sans-serif;
+}
+
+#summary #resume {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#summary #resume a {  
+  color: #6c3e79;
+  text-decoration: none;
+}
+
+#summary a:hover {
+  color: #563261;
+}
+
+#socialMedia {
+  background-color: rgb(50, 50, 50);
+  padding: 15px;
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+#socialMedia li {
+  display: inline;
+}
+
+#socialMedia a{  
+  margin: 15px;
+}
+
+#socialMedia a:hover {
+  text-decoration: none;
+}
+
+#socialMedia i {
+  color: #eee;
+  font-style: inherit;
+}
+
+#socialMedia i:hover {
+  color: #ccc;
+}
+
+#socialMedia .fa-circle {
+  color: #6c3e79;
+}
+
+#socialMedia .fa-circle {
+  color: #563261;
 }
