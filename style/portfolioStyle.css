@@ -9,17 +9,6 @@
          
 }
 
-@font-face {
-      font-family: 'fontello';
-      src: url('font/fontello.eot?32201686');
-      src: url('font/fontello.eot?32201686#iefix') format('embedded-opentype'),
-           url('font/fontello.woff?32201686') format('woff'),
-           url('font/fontello.ttf?32201686') format('truetype'),
-           url('font/fontello.svg?32201686#fontello') format('svg');
-      font-weight: normal;
-      font-style: normal;
-    }
- 
 body {
     font-family: "MyWebFont", "Lucinda Grande", sans-serif;
     background-color: #eee;
