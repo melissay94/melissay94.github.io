@@ -4,54 +4,63 @@
 			"title": "Page A Day",
 			"tagline": "Just a cool place to keep track of web comics you like",
 			"link": "https://pageaday.herokuapp.com",
+			"github": "https://github.com/melissay94/PageADay",
 			"picture": "images/PageADay.png"
 		},
 		{
 			"title": "Sam I Am Recipes",
 			"tagline": "Want to try something new in the kitchen? Explore here!",
 			"link": "https://samiamrecipes.herokuapp.com",
+			"github": "https://github.com/melissay94/SamIAm",
 			"picture": "images/samIAmLogo.png"
 		},
 		{
 			"title": "SWAPI Flash Cards",
 			"tagline": "Need to study? Study Star Wars Flash Cards instead!",
 			"link": "http://swapiflashcards.herokuapp.com/",
+			"github": "https://github.com/melissay94/swapiflashcards",
 			"picture": "images/SwapiLogo.jpg"
 		},
 		{
 			"title": "Audition Aid",
 			"tagline": "Find the perfect musical theater audition piece",
 			"link": "https://devpost.com/software/audition-aid",
+			"github": "",
 			"picture": "images/AuditionAid.png"
 		},
 		{
 			"title": "ButtonGrid Game",
 			"tagline": "Push some buttons and feel frustration with this simple game",
 			"link": "http://melissay94.github.io/ButtonGrid/",
+			"github": "https://github.com/melissay94/ButtonGrid",
 			"picture": "images/ButtonGrid.png"
 		},
 		{
 			"title": "Mea Ola Creature Game",
 			"tagline": "A virtual pet to live in your browser!",
 			"link": "https://devpost.com/software/mea-ola",
+			"github": "https://github.com/mea-ola/mea-ola",
 			"picture": "images/MeaOlaPic.jpg"
 		},
 		{
 			"title": "Edgerh Name Converter",
 			"tagline": "A fun converter to help make names modern and fantastic.",
 			"link": "https://kristen-mills.com/edgerh",
+			"github": "https://github.com/kristenmills/edgerh",
 			"picture": "images/Edgerh.PNG"
 		},
 		{
 			"title": "Crazy Cat Lady Tower Defense Game",
 			"tagline": "Don't let that nasty Slime Warlock get your cats!",
 			"link":"https://www.youtube.com/watch?time_continue=3&v=rsvNFkH2nyI",
+			"github": "",
 			"picture":"images/TowerDefense.jpg"
 		},
 		{
 			"title": "SneakSpeak",
 			"tagline": "Helping users with their fly kicks since 2017",
 			"link": "https://devpost.com/software/sneakspeak",
+			"github": "https://github.com/7imbrook/sneak-speak",
 			"picture": "images/SneakSpeak.jpg"
 		}
 	]

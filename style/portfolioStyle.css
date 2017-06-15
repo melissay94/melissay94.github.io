@@ -127,15 +127,25 @@ p {
 }
 
 #work a {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#work .fa-link {
   color: #eee;
 }
 
-#work .fa-link:hover {
+#work a:hover {
+  color: #ccc;
+}
+
+#work a:focus {
+  border: none;
+}
+
+#work .fa-stack {
+  font-size: 20px;
+}
+#work .fa-github-alt {
+  color: #eee;
+}
+
+#work .fa-githbu-alt:hover {
   color: #ccc;
 }
 
@@ -182,6 +192,7 @@ p {
 #summary #resume a {  
   color: #6c3e79;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #summary a:hover {
