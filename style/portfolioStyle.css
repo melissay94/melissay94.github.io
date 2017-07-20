@@ -11,7 +11,7 @@
 
 body {
     font-family: "MyWebFont", "Lucinda Grande", sans-serif;
-    background-color: #eee;
+    background-color: #fafafa;
 }
 
 p {
@@ -19,50 +19,66 @@ p {
 }
 
 #intro {
-  background: #eee url("../images/siteImage.png") no-repeat right;
   margin-bottom: 0px;
-}
-
-@media only screen and (max-width: 1200px) {
-  #intro {
-    background-position: top;
-  }
+  padding: 15px;
+  background-color: #fafafa;
 }
 
 #intro .container {
-  width: 85%;
+  width: 95%;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #50878e;
 }
 
 #intro h1{
     color: #50878e;
-    font-size: 90px;
-}
-
-@media only screen and (max-width: 645px) {
-  #intro h1 {
-    font-size: 65px;
-  }
-}
-
-@media only screen and (max-width: 490px) {
-  #intro h1 {
-    font-size: 55px;
-  }
-}
-
-#intro h3{
     font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+@media screen and (max-width: 670px) {
+  #intro h1 {
+    font-size: 30px;
+  }
+  #intro .col-md-4 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #intro h1 {
+    font-size: 30px;
+  }
+}
+
+#intro ul {
+  float: right;
+}
+
+#tagline {
+  padding: 50px 0px 0px 0px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: #50878e;
+  width: 95%;
 }
 
 #work {
-  background-color: #50878e;
   min-height: 60vh;
   display: flex;
   align-items: center;
+  background-color: #fafafa;
 }
 
 #work #portfolio {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -79,8 +95,13 @@ p {
   color:  #563261 !important;
 }
 
+.slick-dots {
+  position: relative;
+  padding-top: 10px;
+}
+
 #work .slide {
-  background-color: #eee;
+  border: 1px solid rgb(50, 50, 50);
   margin: 5px;
   height: 300px;
   padding: 15px;
@@ -127,11 +148,11 @@ p {
 }
 
 #work a {
-  color: #eee;
+  color: #fcfcfc;
 }
 
 #work a:hover {
-  color: #ccc;
+  color: #ddd;
 }
 
 #work a:focus {
@@ -142,11 +163,11 @@ p {
   font-size: 20px;
 }
 #work .fa-github-alt {
-  color: #eee;
+  color: ##fafafa;
 }
 
 #work .fa-githbu-alt:hover {
-  color: #ccc;
+  color: #ddd;
 }
 
 #work .fa-circle {
@@ -157,53 +178,8 @@ p {
   color: #563261;
 }
 
-#summary .row {
-  margin:0px;
-}
-
-#summary #selfie {
-  width: 80%;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 990px) {
-  #summary #selfie {
-    width: 50%;
-  }
-}
-
-#summary h4 {
-  font-size: 45px;
-  color: #50878e;
-}
-
-#summary li {
-  font-size: 20px;
-  font-family: "Lucinda Grande", sans-serif;
-}
-
-#summary #resume {
-  margin-top: 20px;
-  font-style: italic;
-}
-
-#summary #resume a {  
-  color: #6c3e79;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#summary a:hover {
-  color: #563261;
-}
-
-#socialMedia {
-  background-color: rgb(50, 50, 50);
-  padding: 15px;
-  text-align: center;
-  margin-bottom: -2px;
+#work a:focus {
+  outline: none;
 }
 
 #socialMedia li {
@@ -211,7 +187,7 @@ p {
 }
 
 #socialMedia a{  
-  margin: 15px;
+  margin: 5px;
 }
 
 #socialMedia a:hover {
@@ -219,12 +195,12 @@ p {
 }
 
 #socialMedia i {
-  color: #eee;
+  color: #fafafa;
   font-style: inherit;
 }
 
 #socialMedia i:hover {
-  color: #ccc;
+  color: #ddd;
 }
 
 #socialMedia .fa-circle {

@@ -36,9 +36,11 @@ const loadData = function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 6000,
         centerMode: true,
         centerPadding: '0px',
+        arrows: false,
+        dots: true,
         responsive: [
           {
             breakpoint: 1024, 
