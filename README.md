@@ -1,6 +1,6 @@
 # Portfolio Site
 
-Link: http://melissay94.github.io "My page"
+Link: http://melissay94.github.io
 
 ## Currently using the following: 
 + FontAwesome 
