@@ -43,13 +43,13 @@ const loadData = function() {
         dots: true,
         responsive: [
           {
-            breakpoint: 1024, 
+            breakpoint: 1201, 
             settings: {
               slidesToShow: 2,
             }
           }, 
           {
-            breakpoint: 480,
+            breakpoint: 545,
             settings: {
               slidesToShow: 1,
             }

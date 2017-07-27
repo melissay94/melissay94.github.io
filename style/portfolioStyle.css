@@ -18,47 +18,37 @@ p {
     font-family: "Lucinda Grande", sans-serif;
 }
 
-#intro {
-  margin-bottom: 0px;
-  padding: 15px;
-  background-color: #fafafa;
-}
-
-#intro .container {
-  width: 95%;
-  margin-top: 0px;
-  display: flex;
-  align-items: center;
-  padding-bottom: 15px;
+#header {
   border-bottom: 3px solid #50878e;
+  margin: 0 2.5%;
 }
 
-#intro h1{
+#header h1{
     color: #50878e;
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 0px;
-    margin-top: 0px;
-
 }
 
-@media screen and (max-width: 670px) {
-  #intro h1 {
-    font-size: 30px;
-  }
-  #intro .col-md-4 {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  #intro h1 {
-    font-size: 30px;
-  }
-}
-
-#intro ul {
+#header ul {
   float: right;
+  margin-top:15px;
+}
+
+@media screen and (max-width: 767px) {
+  #header h1 {
+    text-align: center;
+    font-size: 3.5em; 
+  }
+
+  #header ul {
+    float: none;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #header .fa-lg {
+    font-size: 2em;
+  }
 }
 
 #tagline {
@@ -120,14 +110,14 @@ p {
   min-height: 100px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
   #work .row {
-    width: 129.2%;
+    width: 129.4%;
     min-height: 150px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 544px) {
   #work .row {
     width: 149.2%;
   }
