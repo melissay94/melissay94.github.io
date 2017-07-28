@@ -34,7 +34,7 @@ p {
   margin-top:15px;
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   #header h1 {
     text-align: center;
     font-size: 3.5em; 
@@ -117,7 +117,7 @@ p {
   }
 }
 
-@media screen and (max-width: 544px) {
+@media only screen and (max-width: 544px) {
   #work .row {
     width: 149.2%;
   }
@@ -153,7 +153,7 @@ p {
   font-size: 20px;
 }
 #work .fa-github-alt {
-  color: ##fafafa;
+  color: #fafafa;
 }
 
 #work .fa-githbu-alt:hover {
