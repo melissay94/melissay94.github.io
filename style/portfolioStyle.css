@@ -43,11 +43,15 @@ p {
   #header ul {
     float: none;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 40px;
   }
 
   #header .fa-lg {
     font-size: 2em;
+  }
+
+  #tagline {
+    font-size: 20px;
   }
 }
 
