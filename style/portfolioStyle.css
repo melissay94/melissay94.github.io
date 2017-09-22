@@ -11,9 +11,9 @@
 
 body {
     font-family: "MyWebFont", "Lucinda Grande", sans-serif;
-    background-color: #fafafa;
+    background-color: #fdfdfd;
+    padding: 10px 100px;
 }
-
 p {
     font-family: "Lucinda Grande", sans-serif;
 }
@@ -21,11 +21,18 @@ p {
 #header {
   border-bottom: 3px solid #50878e;
   margin: 0 2.5%;
+  margin-top: 15px;
+  padding-bottom: 20px; 
+}
+
+#header .row {
+  display: flex;
+  align-items: center;
 }
 
 #header h1{
     color: #50878e;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -68,43 +75,29 @@ p {
   min-height: 60vh;
   display: flex;
   align-items: center;
-  background-color: #fafafa;
+  background-color: #fdfdfd;
 }
 
 #work #portfolio {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.slick-prev {
-  left: -40px !important;
-}
-
-.slick-prev:before, .slick-next:before {
-  color: #6c3e79 !important;
-  font-size: 35px !important;
-}
-
-.slick-prev:hover, .slick-next:hover {
-  color:  #563261 !important;
-}
-
-.slick-dots {
-  position: relative;
-  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #work .slide {
   border: 1px solid rgb(50, 50, 50);
+  border-radius: 10px;
   margin: 5px;
-  height: 300px;
+  margin-bottom: 20px;
+  height: 250px;
   padding: 15px;
+  width: 25%;
 }
 
 #work .test {
-  position: absolute;
-  bottom: 5px;
-  width: 5%;
+  display: flex;
+  margin-top: 120px; 
 }
 
 #work .row {
