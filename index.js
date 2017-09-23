@@ -15,7 +15,7 @@ const loadData = function() {
       project = projects[i];
 
       // Put all the fields into elements and add it to the html
-      html += "<div class='slide' style='background: #eee url(" + project.picture +") no-repeat center;";
+     /* html += "<div class='slide' style='background: #eee url(" + project.picture +") no-repeat center;";
       html += " background-size: 100% auto;'>";
       html += "<div class='test'><div class='row'><a href=" + project.link + " target='_blank'>";
       html += "<div class='col-md-6'><h3>" + project.title + "</h3>";
@@ -26,7 +26,18 @@ const loadData = function() {
       }
       html+= "</div>";
       html += "<div class='col-md-6'><p>" + project.tagline + "</p></div>";
-      html += "</a></div></div></div>"; 
+      html += "</a></div></div></div>"; */
+
+      html += "<div class='card'><img class='card-img-block' src=" + project.picture + " alt=" + project.title + "/>";
+      html += "<div class='card-block'>";
+      html += "<h4 class='card-title'>" + project.title + "</h4>";
+      html += "<p class='card-text'>" + project.tagline + "</p>";
+      if (project.github != "") {
+        html += "<a href=" + project.github + " target='_blank'>";
+        html += "<span class='fa-stack'><i class='fa fa-circle fa-stack-2x'></i>";
+        html += "<i class='fa fa-github-alt fa-stack-1x'></i></span></a>";
+      }
+      html += "</div></div>";
     }
 
     document.querySelector('#portfolio').innerHTML = html;
