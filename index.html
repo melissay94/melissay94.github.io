@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!--Sticky Footer-->
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css" type="text/css" />
   <!--My Stylesheet-->
   <link rel="stylesheet" href="style/portfolioStyle.css" type="text/css" />
   <!--Favicons-->
@@ -24,70 +26,82 @@
 </head>
 
 <body>
-  <div id="header">
-    <div class="row">
-      <div class="col-sm-4">
-        <h1>Melissa Young</h1>
-      </div>
-      <div class="col-sm-8">
-        <ul id="socialMedia">
-          <li>
-            <a href="http://melissay94.github.io/YoungMelissaResume.pdf" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-file-text fa-stack-1x"></i>
-                </span>
-              </a>
-          </li>
-          <li>
-            <a href="https://github.com/melissay94" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github-alt fa-stack-1x"></i>
-                </span>
-              </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/melissayoung94/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x"></i>
-                </span>
-              </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/melissa.d.young.50" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x"></i>
-                </span>
-              </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/May_Day94" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x"></i>
-                </span>
-              </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/alphaflower/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x"></i>
-                </span>
-              </a>
-          </li>
-        </ul>
+  <div id="content">
+    <div id="header">
+      <div class="row">
+        <div class="col-sm-4">
+          <h1>Melissa Young</h1>
+        </div>
+        <div class="col-sm-8">
+          <ul id="socialMedia">
+            <li>
+              <a href="http://melissay94.github.io/YoungMelissaResume.pdf" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-file-text fa-stack-1x"></i>
+                  </span>
+                </a>
+            </li>
+            <li>
+              <a href="https://github.com/melissay94" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github-alt fa-stack-1x"></i>
+                  </span>
+                </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/melissayoung94/" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                  </span>
+                </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/melissa.d.young.50" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                  </span>
+                </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/May_Day94" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                  </span>
+                </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/alphaflower/" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x"></i>
+                  </span>
+                </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div class="container" id="tagline">
+      <p>An aspiring Front End Developer looking to create engaging and sometimes humorous web content.</p>
+    </div>
+    <div class="jumbotron" id="work">
+      <div id="portfolio"></div>
+    </div>
   </div>
-  <div class="container" id="tagline">
-    <p>An aspiring Front End Developer looking to create engaging and sometimes humorous web content.</p>
-  </div>
-  <div class="jumbotron" id="work">
-    <div id="portfolio"></div>
+  <div class="footer">
+    <h6>Created by Melissa Young</h6>
+    <h6>I've been participating in the 100 day Design UI challenge! Check out my twitter for my designs and feel free to comment!
+    <a href="https://twitter.com/May_Day94" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a></h6>
   </div>
 </body>
 

@@ -2,7 +2,8 @@
 	"projects": [
 		{
 			"title": "Page A Day",
-			"tagline": "Just a cool place to keep track of web comics you like",
+			"tagline": "Just a cool place to keep track of web comics you like.",
+			"description": "Class Project turned personal project. Uses React, Handlebars, and Bootstrap on the frontend, and express and mongoose for the backend. Database is MongoDB.",
 			"link": "https://pageaday.herokuapp.com",
 			"github": "https://github.com/melissay94/PageADay",
 			"picture": "images/PageADay.png"
@@ -10,6 +11,7 @@
 		{
 			"title": "Sam I Am Recipes",
 			"tagline": "Want to try something new in the kitchen? Explore here!",
+			"description": "Class project turned personal project. Uses Angular 1 and Bootstrap for the frontend. Gets data from the RecipePuppyAPI using a simple server using http.",
 			"link": "https://samiamrecipes.herokuapp.com",
 			"github": "https://github.com/melissay94/SamIAm",
 			"picture": "images/samIAmLogo.png"
@@ -17,6 +19,7 @@
 		{
 			"title": "SWAPI Flash Cards",
 			"tagline": "Need to study? Study Star Wars Flash Cards instead!",
+			"description": "Class project. HTML, CSS, and Handlebars for the frontend. Gets data from the Star Wars API and saves players scores using mongoose and mongoDB. Server uses express.",
 			"link": "http://swapiflashcards.herokuapp.com/",
 			"github": "https://github.com/melissay94/swapiflashcards",
 			"picture": "images/SwapiLogo.jpg"
@@ -24,13 +27,15 @@
 		{
 			"title": "Audition Aid",
 			"tagline": "Find the perfect musical theater audition piece",
+			"description": "Hackathon project from WiCHacks 2015 and won Best Microsoft Hack. Worked on integrating Spotify Web Players into search results using Python.",
 			"link": "https://devpost.com/software/audition-aid",
 			"github": "",
 			"picture": "images/AuditionAid.png"
 		},
 		{
 			"title": "ButtonGrid Game",
-			"tagline": "Push some buttons and feel frustration with this simple game",
+			"tagline": "Push some buttons and feel frustration with this simple game", 
+			"description": "Personal project using Bootstrap for layout. Really simple web game that just uses JavaScript for all logic.",
 			"link": "http://melissay94.github.io/ButtonGrid/",
 			"github": "https://github.com/melissay94/ButtonGrid",
 			"picture": "images/ButtonGrid.png"
@@ -38,13 +43,15 @@
 		{
 			"title": "Mea Ola Creatures",
 			"tagline": "A virtual pet to live in your browser!",
+			"description": "Hackathon project for BrickHacks 2015 and won Best Game. Worked with Unity to create an arena for the creatures to interact in.",
 			"link": "https://devpost.com/software/mea-ola",
-			"github": "https://github.com/mea-ola/mea-ola",
+			"github": "https://github.com/mea-ola/mea-ola-arena",
 			"picture": "images/MeaOlaPic.jpg"
 		},
 		{
 			"title": "Edgerh Name Converter",
 			"tagline": "A fun converter to help make names modern and fantastic.",
+			"description": "Personal project created by a friend and myself. Uses Bootstrap and Angular 1. Worked on logic for string replacement and implemented features such as the pronouncer.",
 			"link": "http://kristen-mills.com/edgerh",
 			"github": "https://github.com/kristenmills/edgerh",
 			"picture": "images/Edgerh.PNG"
@@ -52,6 +59,7 @@
 		{
 			"title": "Crazy Cat Lady Tower Defense Game",
 			"tagline": "Don't let that nasty Slime Warlock get your cats!",
+			"description": "Class team project. Used Unity to create a tower defense game. Worked on game logic for attacks as well as game art for two of the characters.",
 			"link":"https://www.youtube.com/watch?time_continue=3&v=rsvNFkH2nyI",
 			"github": "",
 			"picture":"images/TowerDefense.jpg"
@@ -59,6 +67,7 @@
 		{
 			"title": "SneakSpeak",
 			"tagline": "Helping users with their fly kicks since 2017",
+			"description": "Hackathon project for BrickHacks 2017 and won the SNAP award. Worked on app layout, design of logo, and a bit of the frontend to edit the UI.",
 			"link": "https://devpost.com/software/sneakspeak",
 			"github": "https://github.com/7imbrook/sneak-speak",
 			"picture": "images/SneakSpeak.png"
