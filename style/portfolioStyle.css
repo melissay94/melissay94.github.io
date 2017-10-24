@@ -46,7 +46,7 @@ p {
 
 #header ul {
   float: right;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -76,7 +76,7 @@ p {
   text-align: center;
   font-weight: bold;
   color: #50878e;
-  width: 95%;
+  max-width: 100vw;
 }
 
 #work {
@@ -112,6 +112,7 @@ p {
 }
 
 #work img {
+  padding: 1px;
   margin: 0 auto;
   width: 398px;
   height: auto;
