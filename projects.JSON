@@ -1,6 +1,18 @@
 {
 	"projects": [
 		{
+			"title": "Partyer",
+			"tagline": "An Android App for 'finding' events you want to attend. Created in free time to focus on learning more about how to architect an Android app and include Dagger 2.",
+			"github": "https://github.com/melissay94/Partyer",
+			"picture": "images/partyerLogo.jpg"
+		},
+		{
+			"title": "All Calendars",
+			"tagline": "Android app focused on diving down into all the different ways you can use a calendar with your app.",
+			"github": "https://github.com/melissay94/AllCalendarAdds",
+			"picture": "images/allCalendarLogo.jpg"
+		},
+		{
 			"title": "Page A Day",
 			"tagline": "Just a cool place to keep track of web comics you like.",
 			"description": "Class Project turned personal project. Uses React, Handlebars, and Bootstrap on the frontend, and express and mongoose for the backend. Database is MongoDB.",
@@ -17,12 +29,12 @@
 			"picture": "images/samIAmLogo.png"
 		},
 		{
-			"title": "SWAPI Flash Cards",
-			"tagline": "Need to study? Study Star Wars Flash Cards instead!",
-			"description": "Class project. HTML, CSS, and Handlebars for the frontend. Gets data from the Star Wars API and saves players scores using mongoose and mongoDB. Server uses express.",
-			"link": "http://swapiflashcards.herokuapp.com/",
-			"github": "https://github.com/melissay94/swapiflashcards",
-			"picture": "images/SwapiLogo.jpg"
+			"title": "Edgerh Name Converter",
+			"tagline": "A fun converter to help make names modern and fantastic.",
+			"description": "Personal project created by a friend and myself. Uses Bootstrap and Angular 1. Worked on logic for string replacement and implemented features such as the pronouncer.",
+			"link": "http://melissay94.github.io/edgerh/",
+			"github": "https://github.com/melissay94/edgerh",
+			"picture": "images/Edgerh.PNG"
 		},
 		{
 			"title": "Audition Aid",
@@ -47,14 +59,6 @@
 			"link": "https://devpost.com/software/mea-ola",
 			"github": "https://github.com/mea-ola/mea-ola-arena",
 			"picture": "images/MeaOlaPic.jpg"
-		},
-		{
-			"title": "Edgerh Name Converter",
-			"tagline": "A fun converter to help make names modern and fantastic.",
-			"description": "Personal project created by a friend and myself. Uses Bootstrap and Angular 1. Worked on logic for string replacement and implemented features such as the pronouncer.",
-			"link": "http://kristen-mills.com/edgerh",
-			"github": "https://github.com/kristenmills/edgerh",
-			"picture": "images/Edgerh.PNG"
 		},
 		{
 			"title": "Crazy Cat Lady Tower Defense Game",
