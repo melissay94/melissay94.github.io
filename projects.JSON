@@ -15,14 +15,6 @@
 			"picture": "images/allCalendarLogo.jpg"
 		},
 		{
-			"title": "Page A Day",
-			"tagline": "Just a cool place to keep track of web comics you like.",
-			"description": "Class Project turned personal project. Uses React, Handlebars, and Bootstrap on the frontend, and express and mongoose for the backend. Database is MongoDB.",
-			"link": "https://pageaday.herokuapp.com",
-			"github": "https://github.com/melissay94/PageADay",
-			"picture": "images/PageADay.png"
-		},
-		{
 			"title": "Sam I Am Recipes",
 			"tagline": "Want to try something new in the kitchen? Explore here!",
 			"description": "Class project turned personal project. Uses Angular 1 and Bootstrap for the frontend. Gets data from the RecipePuppyAPI using a simple server using http.",

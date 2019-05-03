@@ -1,20 +1,9 @@
-
-@font-face{ 
-	font-family: 'MyWebFont';
-	src: url('tenderness_regular_macroman/Tenderness-webfont.eot');
-    src: url('tenderness_regular_macroman/Tenderness-webfont.eot?iefix') format('eot'),
-         url('tenderness_regular_macroman/Tenderness-webfont.woff') format('woff'),
-         url('tenderness_regular_macroman/Tenderness-webfont.ttf') format('truetype'),
-         url('tenderness_regular_macroman/Tenderness-webfont.svg#webfont') format('svg') 
-         
-}
-
 body {
-    font-family: "MyWebFont", "Lucinda Grande", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fdfdfd;
 }
 p {
-    font-family: "Lucinda Grande", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
