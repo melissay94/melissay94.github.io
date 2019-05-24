@@ -1,6 +1,60 @@
+@media screen and (max-width: 980px) {
+    #main {
+        #navigation {
+            display: block;
 
-@media only screen and (max-device-width: 786px) {
-    #content {
-      padding: 0;
+            .links {
+                width: 100%;
+                margin: 10px 0px;
+            }
+        }
     }
-  }
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    #main {
+        #tagline {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 565px) {
+
+    #bar_1 {
+        left: 25px;
+    }
+
+    #bar_2 {
+        opacity: 0;
+        animation: none;
+    }
+
+    #content {
+        margin-left: 60px;
+        padding-right: 50px;
+    }
+    #header {
+        h1 {
+            font-size: 28px;
+        }
+    }
+
+    #main {
+        #tagline {
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-height: 748px) {
+    #header {
+        margin-top: 10vh;
+    }
+}
