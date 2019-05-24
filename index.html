@@ -12,10 +12,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <!--Sticky Footer-->
-  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css" type="text/css" />
   <!--My Stylesheet-->
-  <link rel="stylesheet" href="style/portfolioStyle.css" type="text/css" />
+  <link rel="stylesheet" href="style/style.css" type="text/css" />
   <!--Favicons-->
   <link rel="icon" type="images/favicon.ico" href="image/x-icon" />
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -23,81 +21,37 @@
   <script src="https://use.fontawesome.com/d0e8636a90.js"></script>
   <!-- Fonts from Google-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
-   <!--My JS-->
-  <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
+  <div id="animated_bars">
+    <span id="bar_1" class="bar"></span>
+    <span id="bar_2" class="bar"></span>
+  </div>
   <div id="content">
     <div id="header">
-      <div class="row">
-        <div class="col-sm-4">
-          <h1>Melissa Young</h1>
-        </div>
-        <div class="col-sm-8">
-          <ul id="socialMedia">
-            <li>
-              <a href="http://melissay94.github.io/YoungMelissaResume.pdf" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-file-text fa-stack-1x"></i>
-                  </span>
-                </a>
-            </li>
-            <li>
-              <a href="https://github.com/melissay94" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github-alt fa-stack-1x"></i>
-                  </span>
-                </a>
-            </li>
-            <li>
-              <a href="https://linkedin.com/in/melissayoung94/" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x"></i>
-                  </span>
-                </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/melissa.d.young.50" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x"></i>
-                  </span>
-                </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/May_Day94" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x"></i>
-                  </span>
-                </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/alphaflower/" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x"></i>
-                  </span>
-                </a>
-            </li>
-          </ul>
-        </div>
+      <h1>Melissa Young</h1>
+    </div>
+    <div id="main">
+    <p id="tagline">Software Engineer with Front-End and Android Experience</p>
+      <div id="navigation">
+        <a href="http://melissay94.github.io/YoungMelissaResume.pdf" target="_blank">
+          <button class="btn btn-outline-info links" id="resume" type="button" >
+            Resume
+          </button>
+        </a>
+        <a href="https://github.com/melissay94" target="_blank">
+          <button class="btn btn-outline-info links" id="github" type="button">
+            GitHub
+          </button>
+        </a>
+        <a  href="https://linkedin.com/in/melissayoung94/" target="_blank">
+          <button class="btn btn-outline-info links" id="linkedin" type="button">
+            Linkedin      
+          </button>
+        </a>
       </div>
     </div>
-    <div class="container" id="tagline">
-      <p>Software Engineer with Android, Front-End, and Game Development Experience</p>
-    </div>
-    <div class="jumbotron" id="work">
-      <div id="portfolio"></div>
-    </div>
-  </div>
-  <div class="footer">
-    <h6>Created by Melissa Young</h6>
   </div>
 </body>
-
 </html>
