@@ -61,12 +61,15 @@ p {
 }
 
 #content {
-    padding: 10px 100px;
+    padding: 0 6em;
     margin-left: 180px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 #header {
-    margin-top: 30vh; 
 
     h1 {
         color: $secondary-color;
@@ -78,7 +81,7 @@ p {
 #main {
 
     #tagline {
-      padding: 25px 0px 50px 0px;
+      padding: 0.15em 0px 0.3em 0px;
       font-size: 32px;
       color: $secondary-color;
     
@@ -89,20 +92,41 @@ p {
         display: flex;
         justify-content: space-between;
         width: 55vw;
-    
-        .links {
-            border-color: $button-color;
-            width: 200px;
-            height: 45px;
-            color: $button-color;
-            max-width: 100vw;
-        }
-        
-        .links:hover {
-            background-color: $primary-color;
-            color: #eee;
-            font-weight: 700;
-        }
     }
+}
+    
+.links {
+    border-color: $button-color;
+    width: 200px;
+    height: 2.3em;
+    color: $button-color;
+    max-width: 100vw;
+}
+
+.links:hover {
+    background-color: $primary-color;
+    color: #eee;
+    font-weight: 700;
+}
+.feature-project-title {
+    margin-top: 1.2em;
+    color: $secondary-color;
+    font-weight: bold;
+}
+
+.feature-project-info {
+    margin-top: 1em;
+
+    .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    img {
+        width: 85%;
+    }
+
 }
 @import 'mediaStyle';
