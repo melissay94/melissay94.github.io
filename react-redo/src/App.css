@@ -4,8 +4,15 @@
   --main-gray: #D3D3D3;
   --main-font: "Rubik", sans-serif;
   --landing-indent: 5em;
+  --section-padding: 2em;
 }
 
+#landing, #about, #contact, #projects {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Landing section styling */
 .nav-parent {
   display: flex;
   align-items: center;
@@ -37,11 +44,12 @@
 .intro h1 {
   color: white;
   font-size: 72px;
+  font-family: var(--main-font);
 }
 
 .intro h4 {
   color: var(--main-gray);
-  font-size: 46px;
+  font-size: 48px;
 
 }
 
@@ -67,4 +75,93 @@
   right: 0;
   bottom: 0;
   width: 50%;
+}
+
+/* About Me section styling */
+
+.map-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--section-padding);
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.map-container h2 {
+  color: var(--main-blue);
+  margin-top: var(--section-padding);
+  margin-bottom: 0.5em;
+}
+
+.map-container {
+  padding: 0 var(--landing-indent);
+}
+
+.map {
+  position: relative;
+}
+
+.city-label {
+  max-width: 7rem;
+  background-color: var(--main-gray);
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 4px;
+  position: absolute;
+}
+
+.city-label:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+#seattle {
+  top: 1.5em;
+  left: 4.5em;
+}
+
+#san-diego {
+  top: 15em;
+  left: 5.5em;
+}
+
+#rochester {
+  top: 4.8em;
+  left: 25.5em;
+}
+
+#charlottesville {
+  top: 9.4em;
+  left:22.5em;
+}
+
+#new-milford {
+  top: 5.5em;
+  left: 35em;
+}
+
+.brand-statement {
+  padding: var(--section-padding) var(--landing-indent);
+  text-align: center;
+}
+
+.brand-statement h2, .map-section h2 {
+  color: var(--main-blue);
+  font-family: var(--main-font);
+}
+
+.tech-logo-section {
+  align-items: center;
+}
+
+.tech-logo {
+  width: 75%;
+  padding: 10%;
 }
