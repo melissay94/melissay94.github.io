@@ -1,17 +1,30 @@
 import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
-import WhiteLogo from '../assets/siteLogoWhite.png';
+import BlueLogo from '../assets/siteLogoBlue.png';
 
 export default function Navigation() {
 
   return(
     <div>
-      <img src={WhiteLogo} alt="Site Logo" />
-      <Nav>
-        <NavItem href="#about">About</NavItem>
-        <NavItem href="#profile">Projects</NavItem>
-        <NavItem href="#contact">Contact Me</NavItem>
-        <NavItem href='http://melissay94.github.io/YoungMelissaResume.pdf' target='_blank'>Resume</NavItem>
+      <Nav className='nav-parent'>
+        <img src={ BlueLogo } alt="Site Logo" className='nav-logo'/>
+        <NavItem>
+          <NavLink href="#about">About</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#profile">Projects</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#contact">Contact Me</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink 
+            href='http://melissay94.github.io/YoungMelissaResume.pdf' 
+            target='_blank'
+          >
+            Resume
+          </NavLink>
+        </NavItem>
       </Nav>
     </div>
   );

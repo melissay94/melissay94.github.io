@@ -1,0 +1,70 @@
+:root {
+  --main-blue: #50878E;
+  --main-purple: #7C3693; 
+  --main-gray: #D3D3D3;
+  --main-font: "Rubik", sans-serif;
+  --landing-indent: 5em;
+}
+
+.nav-parent {
+  display: flex;
+  align-items: center;
+  padding: 2em 0 2em var(--landing-indent);
+  background-color: white;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.nav-parent a {
+  color: var(--main-purple);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main-font);
+  width: 165px;
+  text-align: center;
+}
+
+.nav-parent a:hover {
+  font-weight: 500;
+}
+
+.intro {
+  margin: 30vh 0 0 var(--landing-indent);
+}
+
+.intro h1 {
+  color: white;
+  font-size: 72px;
+}
+
+.intro h4 {
+  color: var(--main-gray);
+  font-size: 46px;
+
+}
+
+.continue-arrow {
+  margin-top: 2em;
+  margin-left: 10em;
+  cursor: pointer;
+  width: 75px;
+}
+
+.intro-bg {
+  background: var(--main-blue);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+}
+
+.me-outline {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
