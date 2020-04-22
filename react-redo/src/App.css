@@ -4,12 +4,13 @@
   --main-gray: #D3D3D3;
   --subtitle-gray: #333333;
   --main-font: "Rubik", sans-serif;
-  --landing-indent: 5em;
-  --section-padding: 2em;
+  --section-side-padding: 5em;
+  --section-top-padding: 2em;
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.8em;
 }
 
 a {
@@ -28,20 +29,25 @@ a:hover {
 h2 {
   color: var(--main-blue);
   font-family: var(--main-font);
+  font-size: 52px;
 }
 
 .section-layout {
   min-height: 100vh;
   width: 100%;
+  padding: var(--section-top-padding) var(--section-side-padding) var(--section-top-padding) var(--section-side-padding);
 }
 
 /* Landing section styling */
+#landing {
+  padding: 0;
+}
+
 .nav-parent {
   display: flex;
   align-items: center;
-  padding: 2em 0 2em var(--landing-indent);
-  margin: 0;
-  background-color: white;
+  background-color: white; 
+  padding: var(--section-top-padding) var(--section-side-padding) var(--section-top-padding) var(--section-side-padding);
 }
 
 .nav-logo {
@@ -49,7 +55,7 @@ h2 {
 }
 
 .intro {
-  margin: 30vh 0 0 var(--landing-indent);
+  margin: 30vh 0 0 var(--section-side-padding);
 }
 
 .intro h1 {
@@ -91,7 +97,36 @@ h2 {
 /* About Me section styling */
 
 #about {
-  padding: var(--section-padding);
+  text-align: center;
+}
+
+.section-header {
+  padding: 1em 0 0.5em 0;
+}
+
+.my-info {
+  list-style: none;
+}
+
+.my-info li {
+  line-height: 1.8em;
+  padding: 0.75em;
+  font-size: 18px;
+}
+
+.tech-logo-section {
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-logo-section .col-6 {
+  text-align: center;
+}
+
+.tech-logo {
+  max-width: 200px;
+  width: 75%;
+  padding: 10%;
 }
 
 .map-section {
@@ -108,13 +143,13 @@ h2 {
   text-align: center;
 }
 
-.map-container h2 {
-  margin-top: var(--section-padding);
+.map-container h3 {
+  margin-top: var(--section-top-padding);
   margin-bottom: 0.5em;
 }
 
 .map-container {
-  padding: 0 var(--landing-indent);
+  padding: 0 var(--section-side-padding);
 }
 
 .map {
@@ -160,26 +195,6 @@ h2 {
   left: 35em;
 }
 
-.brand-statement {
-  padding: 0 var(--landing-indent);
-  text-align: center;
-  padding-top: 1em;
-}
-
-.brand-statement p {
-  margin-bottom: var(--section-padding);
-}
-
-.tech-logo-section {
-  align-items: center;
-  justify-content: center;
-}
-
-.tech-logo {
-  width: 75%;
-  padding: 10%;
-}
-
 /* Projects section styling */
 #projects {
   background-color: var(--main-purple);
@@ -187,14 +202,14 @@ h2 {
 
 .section-title {
   text-align: center;
-  padding-top: var(--section-padding);
+  padding-top: var(--section-top-padding);
   font-family: var(--main-font);
   color: white;
 }
 
 .project-item {
   height: 65vh;
-  margin-top: var(--section-padding);
+  margin-top: var(--section-top-padding);
 }
 
 .carousel-item-content {
@@ -240,7 +255,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: var(--section-padding);
+  margin-bottom: var(--section-top-padding);
   height: 65vh;
 }
 
@@ -265,7 +280,7 @@ h2 {
 .carousel-controls a {
   text-align: center;
   color: var(--main-gray);
-  padding: var(--section-padding) 0;
+  padding: var(--section-top-padding) 0;
   display: block;
   cursor: pointer;
 }
@@ -276,12 +291,12 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: var(--section-padding);
+  padding: var(--section-top-padding);
 }
 
 .profile-pic {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin: var(--section-padding);
+  margin: var(--section-top-padding);
 }

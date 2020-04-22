@@ -69,7 +69,7 @@ export default function Map() {
       { currentCity.name ? 
         (
           <Fade in={fadeIn} tag='div'>
-            <h2>{ currentCity.name }</h2>
+            <h3>{ currentCity.name }</h3>
             <h5>{ currentCity.moved }</h5>
             <p>{ currentCity.description }</p>
           </Fade>
