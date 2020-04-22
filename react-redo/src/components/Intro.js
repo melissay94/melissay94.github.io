@@ -12,7 +12,7 @@ export default function Intro() {
       <a href="#about">
         <img src={ ContinueArrow } alt='Continue to next section' className='continue-arrow' />
       </a>
-      <img src={ MeOutline } alt='Outline of Melissa Young' tabIndex='-1' className='me-outline'/>
+      <img src={ MeOutline } alt='Outline of Melissa Young' className='me-outline'/>
     </div>
   );
 };

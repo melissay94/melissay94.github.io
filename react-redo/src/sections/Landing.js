@@ -4,7 +4,7 @@ import Intro from '../components/Intro';
 
 export default function Landing() {
   return(
-    <div id="landing">
+    <div id="landing" className='section-layout'>
       <Navigation />
       <Intro />
     </div>

@@ -12,7 +12,25 @@ p {
   font-size: 18px;
 }
 
-#landing, #about, #contact, #projects {
+a {
+  color: var(--main-purple);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+a:hover {
+  color: var(--main-blue);
+  text-decoration: none;
+}
+
+h2 {
+  color: var(--main-blue);
+  font-family: var(--main-font);
+}
+
+.section-layout {
   min-height: 100vh;
   width: 100%;
 }
@@ -22,24 +40,12 @@ p {
   display: flex;
   align-items: center;
   padding: 2em 0 2em var(--landing-indent);
+  margin: 0;
   background-color: white;
 }
 
 .nav-logo {
   height: 50px;
-}
-
-.nav-parent a, .project-info a {
-  color: var(--main-purple);
-  font-size: 20px;
-  font-weight: 400;
-  font-family: var(--main-font);
-  width: 165px;
-  text-align: center;
-}
-
-.nav-parent a:hover, .project-info a:hover {
-  text-decoration: underline;
 }
 
 .intro {
@@ -55,7 +61,6 @@ p {
 .intro h4 {
   color: var(--main-gray);
   font-size: 48px;
-
 }
 
 .continue-arrow {
@@ -80,12 +85,13 @@ p {
   right: 0;
   bottom: 0;
   width: 50%;
+  
 }
 
 /* About Me section styling */
 
 #about {
-  padding-top: var(--landing-indent);
+  padding: var(--section-padding);
 }
 
 .map-section {
@@ -103,7 +109,6 @@ p {
 }
 
 .map-container h2 {
-  color: var(--main-blue);
   margin-top: var(--section-padding);
   margin-bottom: 0.5em;
 }
@@ -159,11 +164,6 @@ p {
   padding: 0 var(--landing-indent);
   text-align: center;
   padding-top: 1em;
-}
-
-.brand-statement h2, .map-section h2 {
-  color: var(--main-blue);
-  font-family: var(--main-font);
 }
 
 .brand-statement p {
@@ -229,8 +229,6 @@ p {
 }
 
 .project-info h2 {
-  color: var(--main-blue);
-  font-family: var(--main-font);
   padding-bottom: 0.5em;
 }
 
@@ -270,4 +268,20 @@ p {
   padding: var(--section-padding) 0;
   display: block;
   cursor: pointer;
+}
+
+.tagline, .contact-info {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--section-padding);
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: var(--section-padding);
 }

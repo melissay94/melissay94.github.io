@@ -51,7 +51,7 @@ export default function About() {
   }
 ];
   return(
-    <Row id="about">
+    <Row id="about" className='section-layout'>
       <Col xs='12' lg='auto' xl='6' className='brand-statement'>
         <h2>About Me</h2>
         <p>I am a passionate Software Engineer focused on Front End Development, utilizing JavaScript technologies to create engaging, outward facing customer products. My past experience as an app developer solidified my understanding of strong teamwork in agile environments, as well as an appreciation for candid conversation. As a self-motivated lifelong learner, I love building my knowledge base to share with others. For example, I seek out volunteering opportunities, specifically around teaching Computer Science to the younger generation.</p>

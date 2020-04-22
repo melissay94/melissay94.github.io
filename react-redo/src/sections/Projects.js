@@ -104,8 +104,7 @@ export default function Projects() {
   }
 
   return(
-    <div
-      id="projects">
+    <div id="projects" className='section-layout'>
       <h2 className='section-title'>My Projects</h2>
       <Carousel 
         activeIndex={ activeIndex }
