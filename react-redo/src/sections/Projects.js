@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { Carousel, CarouselItem, CarouselControl, Row, Col } from 'reactstrap';
+import React from 'react';
+import ProjectSection from '../components/ProjectSection';
+import { Row } from 'reactstrap';
 
 const projects = [
   {
@@ -9,12 +10,15 @@ const projects = [
     github: "https://www.github.com/melissay94/Gradies-Grueling-Grind",
     liveDemo: "https://melissay94.github.io/Gradies-Grueling-Grind/",
     images:[{
+      index: 0,
       src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/ghosties_spawn.png',
       alt: 'Ghost enemies'
     }, {
+      index: 1,
       src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/switching_rooms.png',
       alt: 'Room Changing'
     },{
+      index: 2,
       src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/starting_area.png',
       alt: 'Starting Area'
     }]
@@ -26,15 +30,19 @@ const projects = [
     github: "https://www.github.com/melissay94/GameRally",
     liveDemo: "https://gamerallyio.herokuapp.com/",
     images:[{
+      index: 0,
       src: 'https://github.com/melissay94/GameRally/raw/master/readMeImg/landingPage.jpg',
       alt: 'Landing Page - GameRally'
     }, {
+      index: 1,
       src: 'https://github.com/melissay94/GameRally/raw/master/readMeImg/specificEvent.jpg',
       alt: 'Specific Event Page - GameRally'
     },{
+      index: 2,
       src: 'https://github.com/melissay94/GameRally/raw/master/readMeImg/gameSearch.jpg',
       alt: 'Game Search Page - GameRally'
     },{
+      index: 3,
       src: 'https://github.com/melissay94/GameRally/raw/master/readMeImg/404page.jpg',
       alt: '404 Page - GameRally'
     }]
@@ -46,15 +54,19 @@ const projects = [
     github: "https://www.github.com/melissay94/GiveBack",
     liveDemo: "https://givebackvolunteer.herokuapp.com/",
     images:[{
+      index: 0,
       src: 'https://github.com/melissay94/GiveBack/raw/master/readme_images/givebackLanding.png',
       alt: 'Landing Page - GiveBack'
     },{
+      index: 1,
       src: 'https://github.com/melissay94/GiveBack/raw/master/readme_images/giveBackOrganization.png',
       alt: 'Organization Page = GiveBack'
     },{
+      index: 2,
       src: 'https://github.com/melissay94/GiveBack/raw/master/readme_images/giveBackDashboard.png',
       alt: 'Dashboard - GiveBack'
     },{
+      index: 3,
       src: 'https://github.com/melissay94/GiveBack/raw/master/readme_images/giveBackSearch.png',
       alt: 'Organization Search Page - GiveBack'
     }]
@@ -65,16 +77,20 @@ const projects = [
     description: "A web application for users to keep track of potential gift ideas for others.",
     github: "https://www.github.com/melissay94/giftbasket",
     liveDemo: "https://melissay94.github.io/giftbasket/",
-    images:[,{
+    images:[{
+      index: 0,
       src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCompletedBasket.png',
       alt: 'A basket - Giftbasket'
     },{
+      index: 1,
       src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketUserGifts.png',
       alt: 'User Gifts - Giftbasket'
     },{
+      index: 2,
       src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCreateBasket.png',
       alt: 'Create a basket - Giftbasket'
     },{
+      index: 3,
       src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketAbout.png',
       alt: 'About Section - Giftbasket'
     }]
@@ -82,81 +98,14 @@ const projects = [
 ];
 
 export default function Projects() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-
-    setActiveIndex(activeIndex === projects.length - 1 ? 0 : activeIndex + 1);
-  }
-
-  const previous = () => {
-    if (animating) return;
-
-    setActiveIndex(activeIndex === 0 ? projects.length - 1 : activeIndex - 1);
-  }
-
-  const selectedIndex = (index) => {
-    if (animating) return;
-
-    setActiveIndex(index);
-  }
 
   return(
     <div id="projects" className='section-layout'>
-      <h2 className='section-title'>My Projects</h2>
-      <Carousel 
-        activeIndex={ activeIndex }
-        next={ next }
-        previous={ previous }
-        interval={ false }>
-          { projects.map(project => (
-            <CarouselItem
-              className='project-item'
-              tag='div'
-              key={project.name}
-              onExiting={() => setAnimating(true)}
-              onExited={() => setAnimating(false)}>
-                <div className='carousel-item-content'>
-                  <Row>
-                    <Col md='4' className='project-info'>
-                      <div className='project-header'>
-                        <h2>{project.name}</h2>
-                      </div>
-                      <h6>{ project.technologies.join(' • ') }</h6>
-                      <p>{ project.description }</p>
-                      <Row>
-                        <Col xs='6'>
-                          <a href={project.github} target='_blank'>Project Repo</a>
-                        </Col>
-                        <Col xs='6'>
-                          <a href={project.liveDemo}  target='_blank'>Live Demo</a>
-                        </Col>
-                      </Row>
-                    </Col>
-                    <Col md='7' className='project-gallery'>
-                      <Row>
-                        {project.images ? project.images.map(image => (
-                          <Col key={image.alt} xs='6'>
-                            <img src={image.src} alt={image.alt} />
-                          </Col>
-                        )):null}
-                      </Row>
-                    </Col>
-                  </Row>
-                </div>
-              </CarouselItem>
-          ))}
-          <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-          <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-      </Carousel>
-      <Row className='carousel-controls'>
-        { projects.map((project, index) => (
-          <Col key={project.name} onClick={() => selectedIndex(index)} xs='3'>
-            <a>{ project.name }</a>
-          </Col>
-        ))}
+      <h2 className='section-header'>My Projects</h2>
+      <Row className='project-row'>
+        { projects.map(project => (
+          <ProjectSection project={ project } />
+        )) }
       </Row>
     </div>
   );

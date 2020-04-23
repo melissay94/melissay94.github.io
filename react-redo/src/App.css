@@ -209,91 +209,55 @@ h2 {
 /* Projects section styling */
 #projects {
   background-color: var(--main-purple);
+  color: white;
 }
 
-.section-title {
+.slide {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.image-item {
+  height: 30vh;
+  margin-top: var(--section-top-padding);
+}
+
+.image-item img {
+  max-width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.project-row {
+  padding-top: var(--section-side-padding);
+}
+
+#projects .section-header {
   text-align: center;
   padding-top: var(--section-top-padding);
   font-family: var(--main-font);
   color: white;
 }
 
-.project-item {
-  height: 65vh;
-  margin-top: var(--section-top-padding);
-}
-
-.carousel-item-content {
-  background-color: var(--main-gray);
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.carousel-item-content .row {
-  height: 100%;
-}
-
-.project-header {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.project-header img {
-  width: 75px;
-  height: auto;
-}
 
 .project-info {
-  margin: 0 1em;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project-info h2 {
-  padding-bottom: 0.5em;
-}
-
-.project-info .row {
-  height: auto;
-}
-
-.project-gallery .row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: var(--section-top-padding);
-  height: 65vh;
-}
-
-.project-gallery .col-6 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: fit-content;
-}
-
-.project-gallery .col-6 img{
-  width: 90%;
-  margin: 5px;
-}
-
-.carousel-controls {
-  width: 80%;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.carousel-controls a {
+  margin-top: var(--section-top-padding);
+  padding-bottom: var(--section-side-padding);
   text-align: center;
+}
+
+.project-info a {
   color: var(--main-gray);
-  padding: var(--section-top-padding) 0;
-  display: block;
-  cursor: pointer;
+}
+
+.project-info a:hover {
+  color: var(--main-blue);
 }
 
 /* Contact Section */
