@@ -49,6 +49,11 @@ h2 {
   align-items: center;
 }
 
+.sticky-header h6 {
+  margin: 0;
+  padding-right: 0.5em;
+}
+
 .sticky-header img {
   width: 35px;
 }
