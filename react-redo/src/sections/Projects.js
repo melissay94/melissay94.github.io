@@ -104,7 +104,7 @@ export default function Projects() {
       <h2 className='section-header'>My Projects</h2>
       <Row className='project-row'>
         { projects.map(project => (
-          <ProjectSection project={ project } />
+          <ProjectSection project={ project } key={project.name} />
         )) }
       </Row>
     </div>

@@ -8,13 +8,13 @@ export default function StarRating({ rating }){
   const starRating = () => {
     const stars = [];
     for (let i = 0; i < Math.floor(rating); i++) {
-      stars.push(<FontAwesomeIcon icon={FilledStar} c/>);
+      stars.push(<FontAwesomeIcon icon={FilledStar} key={`filled-${i}`} />);
     }
     if (Math.floor(rating) < rating) {
-      stars.push(<FontAwesomeIcon icon={faStarHalfAlt} />);
+      stars.push(<FontAwesomeIcon icon={faStarHalfAlt} key='half-filled' />);
     }
     for (let i = 0; i < (5 - Math.ceil(rating)); i++) {
-      stars.push(<FontAwesomeIcon icon={OutlineStar} />);
+      stars.push(<FontAwesomeIcon icon={OutlineStar} key={`outline-${i}`}/>);
     }
 
     return stars;

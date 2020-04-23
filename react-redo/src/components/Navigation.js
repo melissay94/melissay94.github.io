@@ -12,7 +12,7 @@ export default function Navigation() {
           <NavLink href="#about">About</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#profile">Projects</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#contact">Contact Me</NavLink>
