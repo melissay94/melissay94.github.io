@@ -29,7 +29,6 @@ a:hover {
 h2 {
   color: var(--main-blue);
   font-family: var(--main-font);
-  font-size: 52px;
 }
 
 .section-layout {
@@ -98,10 +97,18 @@ h2 {
 
 #about {
   text-align: center;
+  margin-bottom: var(--section-top-padding);
 }
 
 .section-header {
-  padding: 1em 0 0.5em 0;
+  padding: 2em 0 0 0;
+  margin-bottom: 0;
+  font-size: 52px;
+  text-align: center;
+}
+
+.section-subheader {
+  padding-bottom: 0.5em;
 }
 
 .my-info {
@@ -117,6 +124,8 @@ h2 {
 .tech-logo-section {
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .tech-logo-section .col-6 {
@@ -124,7 +133,7 @@ h2 {
 }
 
 .tech-logo {
-  max-width: 200px;
+  max-width: 175px;
   width: 75%;
   padding: 10%;
 }
@@ -136,11 +145,8 @@ h2 {
 }
 
 .map-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
   text-align: center;
+  min-height: 600px;
 }
 
 .map-container h3 {
@@ -152,8 +158,13 @@ h2 {
   padding: 0 var(--section-side-padding);
 }
 
+.map-col {
+  padding-top: 3.5em;
+}
+
 .map {
   position: relative;
+  width: fit-content;
 }
 
 .city-label {
@@ -285,13 +296,45 @@ h2 {
   cursor: pointer;
 }
 
+/* Contact Section */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
 .tagline, .contact-info {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   justify-content: center;
+  padding: 0 var(--section-top-padding) 10em var(--section-top-padding);
+}
+
+.tagline {
   align-items: center;
-  padding: var(--section-top-padding);
+}
+
+.highlight {
+  color: var(--main-blue);
+}
+
+.contact-info .row {
+  margin-bottom: 1.8em;
+  margin-left: var(--section-top-padding);
+}
+
+.contact-info .row h6 {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: var(--section-top-padding);
+}
+
+.contact-info svg {
+  color: var(--main-purple);
+  font-size: 28px;
 }
 
 .profile-pic {
@@ -299,4 +342,12 @@ h2 {
   width: 150px;
   height: 150px;
   margin: var(--section-top-padding);
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: var(--section-top-padding) var(--section-side-padding);
+  background-color: var(--main-blue);
+  color: white;
 }

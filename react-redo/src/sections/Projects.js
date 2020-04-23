@@ -63,8 +63,8 @@ const projects = [
     name: "Giftbasket",
     technologies: ['HTML/CSS', 'JavaScript', 'Material UI', 'React', 'GraphQL', 'Apollo', 'Sequelize', 'Postgres'],
     description: "A web application for users to keep track of potential gift ideas for others.",
-    github: "https://www.github.com/melissay94/Gradies-Grueling-Grind",
-    liveDemo: "https://melissay94.github.io/Gradies-Grueling-Grind/",
+    github: "https://www.github.com/melissay94/giftbasket",
+    liveDemo: "https://melissay94.github.io/giftbasket/",
     images:[,{
       src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCompletedBasket.png',
       alt: 'A basket - Giftbasket'

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Fade } from 'reactstrap';
+import { Fade, Row, Col } from 'reactstrap';
 import CityMap from '../assets/mapOutline.png';
 
 export default function Map() {
@@ -50,22 +50,25 @@ export default function Map() {
   }
 
   return(
-    <div className='map-container'>
-      <div className='map'>
-        <img src={ CityMap } alt="map of us with points of interest" />
-        {
-          cityInfo.map(city => (
-            <h6 
-              className='city-label'
-              key={ city.name }
-              onClick={ () => handleCityTransition(city) }
-              id={ (city.name.toLocaleLowerCase()).replace(/\s/g, '-') }
-              >
-                { city.name }
-            </h6>
-          ))
-        }
-      </div>
+    <Row className='map-container'>
+      <Col xs='12' xl='6' className='map-col'>
+        <div className='map'>
+          <img src={ CityMap } alt="map of us with points of interest" />
+          {
+            cityInfo.map(city => (
+              <h6 
+                className='city-label'
+                key={ city.name }
+                onClick={ () => handleCityTransition(city) }
+                id={ (city.name.toLocaleLowerCase()).replace(/\s/g, '-') }
+                >
+                  { city.name }
+              </h6>
+            ))
+          }
+        </div>
+      </Col>
+      <Col xs='12' xl='6' className='city-info'>
       { currentCity.name ? 
         (
           <Fade in={fadeIn} tag='div'>
@@ -75,6 +78,7 @@ export default function Map() {
           </Fade>
         ): null
       }
-    </div>
+      </Col>
+    </Row>
   );
 };

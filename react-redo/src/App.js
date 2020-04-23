@@ -4,7 +4,6 @@ import Landing from './sections/Landing';
 import About from './sections/About';
 import Project from './sections/Projects';
 import Contact from './sections/Contact';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <About />
       <Project />
       <Contact />
-      <Footer />
     </div>
   );
 }
