@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import './Media.css';
 import useScrollPosition from './hooks/useScrollPosition';
 import StickyHeader from './components/StickyHeader';
 import Landing from './sections/Landing';

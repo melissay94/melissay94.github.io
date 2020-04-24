@@ -10,17 +10,17 @@ export default function Contact() {
     <div id='contact' className='section-layout'>
       <h2 className='section-header'>Contact Me</h2>
       <Row>
-        <Col xs='6' className='tagline'>
+        <Col xs='12' md='6' className='tagline'>
           <img src='https://avatars2.githubusercontent.com/u/7768121?s=460&u=32c0fc6cc61163b9adbb7ec34511245465626461&v=4' alt='Developer Melissa Young' className='profile-pic' />
           <h4>Looking for a developer??</h4>
           <h4 className='highlight'>I'm looking for a career!!</h4>
         </Col>
-        <Col xs='6' className='contact-info'>
+        <Col xs='12' md='6' className='contact-info'>
           <Row>
             <Col xs='1'>
               <FontAwesomeIcon icon={faEnvelope} className='icon' />
             </Col>
-            <Col md='10'>
+            <Col xs='10'>
               <h6>melissadcy@gmail.com</h6>
             </Col>
           </Row>

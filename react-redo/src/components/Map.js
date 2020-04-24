@@ -51,7 +51,7 @@ export default function Map() {
 
   return(
     <Row className='map-container'>
-      <Col xs='12' xl='6' className='map-col'>
+      <Col lg='12'  xl='6' className='map-col'>
         <div className='map'>
           <img src={ CityMap } alt="map of us with points of interest" />
           {
@@ -68,7 +68,7 @@ export default function Map() {
           }
         </div>
       </Col>
-      <Col xs='12' xl='6' className='city-info'>
+      <Col lg='12' xl='6' className='city-info'>
       { currentCity.name ? 
         (
           <Fade in={fadeIn} tag='div'>

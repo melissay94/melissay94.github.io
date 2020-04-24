@@ -173,6 +173,7 @@ h2 {
 
 .map-container {
   text-align: center;
+  justify-content: center;
   min-height: 600px;
 }
 
@@ -187,11 +188,18 @@ h2 {
 
 .map-col {
   padding-top: 3.5em;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .map {
   position: relative;
   width: fit-content;
+}
+
+.map img {
+  width: 100%;
+  min-width: 500px;
 }
 
 .city-label {
@@ -209,28 +217,28 @@ h2 {
 }
 
 #seattle {
-  top: 1.5em;
-  left: 4.5em;
+  top: 6.5%;
+  left: 5.5%;
 }
 
 #san-diego {
-  top: 15em;
-  left: 5.5em;
+  top: 63.5%;
+  left: 7%;
 }
 
 #rochester {
-  top: 4.8em;
-  left: 25.5em;
+  top: 19.8%;
+  left: 74.5%;
 }
 
 #charlottesville {
-  top: 9.4em;
-  left:22.5em;
+  top: 40%;
+  left: 70%;
 }
 
 #new-milford {
-  top: 5.5em;
-  left: 35em;
+  top: 23.5%;
+  left: 90.5%;
 }
 
 /* Projects section styling */
@@ -294,6 +302,11 @@ h2 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  width: 100%;
+}
+
+#contact .row {
+  width: 100%;
 }
 
 .tagline, .contact-info {
@@ -313,14 +326,15 @@ h2 {
 
 .contact-info .row {
   margin-bottom: 1.8em;
-  margin-left: var(--section-top-padding);
+  padding-left: var(--section-top-padding);
+  min-width: 395px;
 }
 
 .contact-info .row h6 {
   font-family: var(--main-font);
   font-size: 20px;
   font-weight: 400;
-  margin-left: var(--section-top-padding);
+  padding-left: var(--section-top-padding);
 }
 
 .contact-info svg {

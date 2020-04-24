@@ -1,0 +1,94 @@
+
+@media only screen and (max-width: 865px) {
+  .intro {
+    margin-top: 20vh;
+  }
+
+  .map-container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+
+  .nav-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .nav-logo {
+    height: 80%;
+    margin-right: 25px;
+  }
+
+  .nav-parent .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .intro {
+    margin-top: 10vh;
+  }
+
+  .intro h1 {
+    font-size: 62px;
+  }
+
+  .intro h4 {
+    font-size: 21px;
+  }
+
+  .map img {
+    min-width: 300px;
+  }
+
+  .city-label {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .intro h1 {
+    font-size: 32px;
+  }
+
+  .intro h4 {
+    font-size: 16px;
+  }
+
+  .continue-arrow {
+    margin-top: 0.5em;
+    margin-left: 2em;
+    width: 40px;
+  }
+
+  .my-info li {
+    font-size: 14px;
+  }
+
+  .image-item {
+    height: 23vh;
+  }
+
+}
+

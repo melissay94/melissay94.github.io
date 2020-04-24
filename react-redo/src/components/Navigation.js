@@ -5,9 +5,9 @@ import BlueLogo from '../assets/siteLogoBlue.png';
 export default function Navigation() {
 
   return(
-    <div>
-      <Nav className='nav-parent'>
-        <img src={ BlueLogo } alt="Site Logo" className='nav-logo'/>
+    <div className='nav-parent'>
+      <img src={ BlueLogo } alt="Site Logo" className='nav-logo'/>  
+      <Nav>
         <NavItem>
           <NavLink href="#about">About</NavLink>
         </NavItem>
