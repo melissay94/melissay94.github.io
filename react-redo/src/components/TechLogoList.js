@@ -12,6 +12,7 @@ import PhaserLogo from '../assets/phaserLogo.png';
 import PostgresLogo from '../assets/postgresLogo.png';
 import ReactLogo from '../assets/reactLogo.png';
 import SequelizeLogo from '../assets/sequelizeLogo.png';
+import GraphqlLogo from '../assets/graphqlLogo.png';
 
 const logos = [{
   logo: HtmlLogo,
@@ -67,6 +68,11 @@ const logos = [{
   logo: PostgresLogo,
   altText: 'Postgres Logo', 
   technology: 'Postgres',
+  rating: 2
+}, {
+  logo: GraphqlLogo,
+  altText: 'Graphql Logo',
+  technology: 'GraphQL',
   rating: 2
 }
 ];

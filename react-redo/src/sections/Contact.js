@@ -29,7 +29,14 @@ export default function Contact() {
               <FontAwesomeIcon icon={faGithubSquare} className='icon' />
             </Col>
             <Col xs='10'>
-              <h6><a href='https://www.github.com/melissay94'>My GitHub Page</a></h6>
+              <h6>
+                <a 
+                  href='https://www.github.com/melissay94'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                    My GitHub Page
+                    </a>
+              </h6>
             </Col>
           </Row>
           <Row>
@@ -37,11 +44,18 @@ export default function Contact() {
               <FontAwesomeIcon icon={faLinkedin} className='icon' />
             </Col>
             <Col xs='10'>
-              <h6><a href='https://www.linkedin.com/in/melissadcyoung/'>My LinkedIn Profile</a></h6>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
+              <h6>
+                <a 
+                  href='https://www.linkedin.com/in/melissadcyoung/'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                    My LinkedIn Profile
+                  </a>
+                </h6>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
       <Footer />
     </div>
   );

@@ -9,7 +9,7 @@ export default function Map() {
       name: "Seattle",
       moved: "June 2019 - Current",
       companies: ["General Assembly"],
-      description: "Start of my next chapter! After some mild health issues with my partner, I decided it was time to move across the country to be with them, as they already lived in Seattle. Now I'm attending the General Assembly Seattle Campus's Software Engineering Immersive. It's an intense, 12 week, 480+ hour course geared to help get me ready to be a developer in Seattle, mostly focusing on web technologies. I'm excited to learn all I can and get back out there as a Front End Developer!"
+      description: "After many years of visiting, I finally made the decision to move across the country to be with my partner in Seattle the summer of 2019. While I was sadden to leave my amazing position at WillowTree, being apart during a small medical issue put into perspective that being apart was just too much strain on both of us. Also, I love Seattle, so why not move now versus later? With this big life change occuring, having to move across the country and then into a new apartment at the end of their lease, plus quite a bit of travel coming up after that, I decided to take it easy, and focused on organizing our life. While doing this, I decided to focus in on what field of development I truly wanted to work in, which is the Front End. After a few months of learning on my own, I decided that it would be more beneficial to enroll at General Assembly, a bootcamp program one of my coworkers had told me about back in Virginia!"
     },
     {
       name: "San Diego",

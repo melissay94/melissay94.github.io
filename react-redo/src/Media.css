@@ -11,22 +11,6 @@
 
 @media only screen and (max-width: 680px) {
 
-  .nav-parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .nav-logo {
-    height: 80%;
-    margin-right: 25px;
-  }
-
-  .nav-parent .nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .nav-link {
     padding-left: 0;
     padding-right: 0;
@@ -88,6 +72,11 @@
 
   .image-item {
     height: 23vh;
+  }
+
+  #projects {
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
 }

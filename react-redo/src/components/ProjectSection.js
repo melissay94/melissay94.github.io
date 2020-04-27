@@ -12,10 +12,16 @@ export default function ProjectSection({ project }) {
           <p>{ project.description }</p>
           <Row>
             <Col md='6' xs='6'>
-              <a href={project.github}>GitHub Repo</a>
+              <a 
+                href={project.github}
+                target='_blank'
+                rel='noopener noreferrer'>GitHub Repo</a>
             </Col>
             <Col md='6' xs='6'>
-              <a href={project.liveDemo}>Live Demo</a>
+              <a 
+                href={project.liveDemo}
+                target='_blank'
+                rel='noopener noreferrer'>Live Demo</a>
             </Col>
           </Row>
         </div>
