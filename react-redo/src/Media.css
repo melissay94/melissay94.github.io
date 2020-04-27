@@ -17,7 +17,7 @@
   }
 
   .intro {
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
 
   .intro h1 {
@@ -53,17 +53,19 @@
   }
 
   .intro h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .intro h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .continue-arrow {
-    margin-top: 0.5em;
-    margin-left: 2em;
-    width: 40px;
+    font-size: 52px;
+  }
+
+  .me-outline {
+    width: 65%;
   }
 
   .my-info li {

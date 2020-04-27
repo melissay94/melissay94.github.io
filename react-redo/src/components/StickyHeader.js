@@ -1,7 +1,11 @@
-import React from 'react';
-import ReturnArrow from '../assets/returnArrow.png';
+import React, { useState } from 'react';
+import { Tooltip } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 export default function StickyHeader({ show }) {
+
+  const [tooltipShow, setTooltipShow] = useState(false);
 
   const changingStyle = {
     visibility: show ? 'visible' : 'hidden',
@@ -12,8 +16,10 @@ export default function StickyHeader({ show }) {
   return(
     <div className='sticky-header' style={changingStyle}>
       <a href='#'>
-        <h6>Return to Top</h6>
-        <img src={ ReturnArrow } alt='Back to Top' />
+        <FontAwesomeIcon icon={ faArrowUp } id='return-arrow' />
+        <Tooltip target='return-arrow' isOpen={tooltipShow} toggle={ () => setTooltipShow(!tooltipShow)} placement='bottom'>
+          Return to Top
+        </Tooltip>
       </a>
     </div>
   );

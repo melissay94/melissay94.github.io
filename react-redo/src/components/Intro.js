@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Tooltip } from 'reactstrap';
-import ContinueArrow from '../assets/continueArrow.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import MeOutline from '../assets/meOutline.png';
 
 export default function Intro() {
@@ -13,7 +14,7 @@ export default function Intro() {
       <h1>Melissa Young</h1>
       <h4>a Front End Developer</h4>
       <a href="#about">
-        <img src={ ContinueArrow } alt='Continue to next section' className='continue-arrow' id='continue-arrow' />
+        <FontAwesomeIcon icon={ faArrowDown } className='continue-arrow' id='continue-arrow' />
         <Tooltip isOpen={tooltipShow} target='continue-arrow' toggle={() => { setTooltipShow(!tooltipShow) }} placement='bottom'>
           Click to continue
         </Tooltip>
