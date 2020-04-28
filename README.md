@@ -1,11 +1,11 @@
 # Portfolio Site
 
-Link: http://melissay94.github.io
+[My Site](https://www.melissayoung.dev)
 
 ## Currently using the following: 
 + React
 + ReactStrap
-
++ FontAwesome
 
 ## Image Sources
 [HTML Logo](https://www.stickpng.com/assets/images/5847f5bdcef1014c0b5e489c.png)
@@ -19,3 +19,4 @@ Link: http://melissay94.github.io
 [Express Logo](https://p7.hiclipart.com/preview/545/451/583/node-js-express-js-javascript-solution-stack-web-application-others.jpg)
 [Sequelize Logo](https://miro.medium.com/max/661/1*XcE0wR1ZmWLFbdF2dE5WuA.png)
 [Postgres Logo](https://portworx.com/wp-content/uploads/2018/05/postgresql-logo.png)
+[GraphQL Logo](https://cdn.freebiesupply.com/logos/large/2x/graphql-logo-png-transparent.png)
