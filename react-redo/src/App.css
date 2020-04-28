@@ -83,6 +83,10 @@ h2 {
   border-color: var(--main-purple);
 }
 
+.nav-item {
+  margin-right: 1em;
+}
+
 .intro {
   margin: 30vh 0 0 var(--section-side-padding);
   width: fit-content;
@@ -187,7 +191,7 @@ h2 {
 .map-container {
   text-align: center;
   justify-content: center;
-  min-height: 600px;
+  min-height: 750px;
 }
 
 .map-container h3 {
@@ -206,6 +210,7 @@ h2 {
 }
 
 .map {
+  margin-top: 100px;
   position: relative;
   width: fit-content;
 }
