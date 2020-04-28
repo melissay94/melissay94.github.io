@@ -18,10 +18,11 @@ export default function ProjectSection({ project }) {
                 rel='noopener noreferrer'>GitHub Repo</a>
             </Col>
             <Col md='6' xs='6'>
+              { project.liveDemo ?
               <a 
                 href={project.liveDemo}
                 target='_blank'
-                rel='noopener noreferrer'>Live Demo</a>
+                rel='noopener noreferrer'>Live Demo</a>: null }
             </Col>
           </Row>
         </div>

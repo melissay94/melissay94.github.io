@@ -1,28 +1,14 @@
 import React from 'react';
 import ProjectSection from '../components/ProjectSection';
 import { Row } from 'reactstrap';
+import tictactoeStart from '../assets/setupGame.png';
+import tictactoeWon from '../assets/wonGame.png';
+import injoyFeed from '../assets/injoyFeed.png';
+import injoyFlashCard from '../assets/injoyFlashCard.png';
+import injoyHomepage from '../assets/injoyHomepage.png';
+import injoySignup from '../assets/injoySignupflow.png';
 
 const projects = [
-  {
-    name: "Gradie's Grueling Grind",
-    technologies: ['HTML/CSS', 'JavaScript', 'Phaser 3', 'Parcel', 'Bootstrap'],
-    description: "A top down 2D rouge-like dungeon crawler web game.",
-    github: "https://www.github.com/melissay94/Gradies-Grueling-Grind",
-    liveDemo: "https://melissay94.github.io/Gradies-Grueling-Grind/",
-    images:[{
-      index: 0,
-      src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/ghosties_spawn.png',
-      alt: 'Ghost enemies'
-    }, {
-      index: 1,
-      src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/switching_rooms.png',
-      alt: 'Room Changing'
-    },{
-      index: 2,
-      src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/starting_area.png',
-      alt: 'Starting Area'
-    }]
-  },
   {
     name: "GameRally",
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'EJS', 'Express', 'Sequelize', 'Postgres'],
@@ -45,6 +31,30 @@ const projects = [
       index: 3,
       src: 'https://github.com/melissay94/GameRally/raw/master/readMeImg/404page.jpg',
       alt: '404 Page - GameRally'
+    }]
+  },
+  {
+    name: "Giftbasket",
+    technologies: ['HTML/CSS', 'JavaScript', 'Material UI', 'React', 'GraphQL', 'Apollo', 'Sequelize', 'Postgres'],
+    description: "A web application for users to keep track of potential gift ideas for others.",
+    github: "https://www.github.com/melissay94/giftbasket",
+    liveDemo: "https://www.melissayoung.dev/giftbasket/",
+    images:[{
+      index: 0,
+      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCompletedBasket.png',
+      alt: 'A basket - Giftbasket'
+    },{
+      index: 1,
+      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketUserGifts.png',
+      alt: 'User Gifts - Giftbasket'
+    },{
+      index: 2,
+      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCreateBasket.png',
+      alt: 'Create a basket - Giftbasket'
+    },{
+      index: 3,
+      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketAbout.png',
+      alt: 'About Section - Giftbasket'
     }]
   },
   {
@@ -72,27 +82,60 @@ const projects = [
     }]
   },
   {
-    name: "Giftbasket",
-    technologies: ['HTML/CSS', 'JavaScript', 'Material UI', 'React', 'GraphQL', 'Apollo', 'Sequelize', 'Postgres'],
-    description: "A web application for users to keep track of potential gift ideas for others.",
-    github: "https://www.github.com/melissay94/giftbasket",
-    liveDemo: "https://melissay94.github.io/giftbasket/",
+    name: "Gradie's Grueling Grind",
+    technologies: ['HTML/CSS', 'JavaScript', 'Phaser 3', 'Parcel', 'Bootstrap'],
+    description: "A top down 2D rouge-like dungeon crawler web game about a poor lost kobold trying to survive and find his way home.",
+    github: "https://www.github.com/melissay94/gradies-grueling-grind",
+    liveDemo: "https://www.melissayoung.dev/gradies-grueling-grind/",
     images:[{
       index: 0,
-      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCompletedBasket.png',
-      alt: 'A basket - Giftbasket'
-    },{
+      src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/ghosties_spawn.png',
+      alt: 'Ghost enemies'
+    }, {
       index: 1,
-      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketUserGifts.png',
-      alt: 'User Gifts - Giftbasket'
+      src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/switching_rooms.png',
+      alt: 'Room Changing'
     },{
       index: 2,
-      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketCreateBasket.png',
-      alt: 'Create a basket - Giftbasket'
+      src: 'https://github.com/melissay94/gradies-grueling-grind/raw/master/assets/starting_area.png',
+      alt: 'Starting Area'
+    }]
+  }, {
+    name: "Tic Tac Toe",
+    technologies: ['HTML/CSS', 'JavaScript'],
+    description: "A simple Tic Tac Toe game with a random placement 'AI'.",
+    github: "https://www.github.com/melissay94/tic-tac-toe",
+    liveDemo: "https://www.melissayoung.dev/tic-tac-toe/",
+    images: [{
+      index: 0,
+      src: tictactoeStart,
+      alt: 'Starting Set up'
     },{
+      index: 1,
+      src: tictactoeWon,
+      alt: 'Won Game'
+    }]
+  }, {
+    name: "InJoy", 
+    technologies: ["HTML/CSS", "Material UI", "React", "Express"],
+    description: "Mobile-first web application that supplies users with prompts for stay home activities and encourages them to share the results!",
+    github: "https://github.com/melissay94/InJoy",
+    images: [{
+      index: 0,
+      src: injoyHomepage,
+      alt: 'InJoy Home Screen'
+    }, {
+      index: 1,
+      src: injoySignup,
+      alt: 'InJoy SignUp - Select Preferred Categories'
+    }, {
+      index: 2,
+      src: injoyFlashCard,
+      alt: 'Injoy Topic Card Screen'
+    }, {
       index: 3,
-      src: 'https://github.com/melissay94/giftbasket/raw/master/readme_imgs/giftbasketAbout.png',
-      alt: 'About Section - Giftbasket'
+      src:injoyFeed,
+      alt: 'Injoy Feed Screen'
     }]
   }
 ];
