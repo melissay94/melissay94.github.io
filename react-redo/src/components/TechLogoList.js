@@ -18,62 +18,62 @@ const logos = [{
   logo: HtmlLogo,
   altText: 'HTML Logo',
   technology: 'HyperText Markup Language',
-  rating: 4
+  used: 'Used professionally as an intern',
 },{
   logo: CssLogo,
   altText: 'CSS Logo',
   technology: 'Cascading Style Sheet',
-  rating: 4
+  used: 'Used professionally as an intern',
 },{
   logo: JsLogo,
   altText: 'JavaScript Logo',
   technology: 'JavaScript',
-  rating: 3
+  used: 'Used professionally as an intern',
 },{
   logo: BootstrapLogo,
   altText: 'Bootstrap Logo',
   technology: 'Bootstrap',
-  rating: 4
+  used: 'Used on personal projects',
 },{
   logo: MaterialUILogo,
   altText: 'Material UI Logo',
   technology: 'Material UI',
-  rating: 2
+  used: 'Used on personal projects',
 },{
   logo: ReactLogo,
   altText: 'React Logo', 
   technology: 'React',
-  rating: 2.5
+  used: 'Used on personal projects',
 },{
   logo: ExpressLogo,
   altText: 'Express Logo',
   technology: 'Express',
-  rating: 2
+  used: 'Used on personal projects',
 },{
   logo: NodeJsLogo,
   altText: 'Node Logo',
   technology: 'Node JS',
-  rating: 3
+  used: 'Used on personal projects',
 },{
   logo: PhaserLogo,
   altText: 'Phaser 3 Logo',
   technology: 'Phaser 3',
-  rating: 1
+  used: 'Used on a personal project',
 },{
   logo: SequelizeLogo,
   altText: 'Sequelize Logo', 
   technology: 'Sequelize',
-  rating: 2
+  used: 'Used on personal projects',
 },{
   logo: PostgresLogo,
   altText: 'Postgres Logo', 
   technology: 'Postgres',
-  rating: 2
+  used: 'Used on personal projects',
 }, {
   logo: GraphqlLogo,
   altText: 'Graphql Logo',
   technology: 'GraphQL',
-  rating: 2
+  used: 'Used on a personal project',
 }
 ];
 
