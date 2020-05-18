@@ -60,7 +60,7 @@ const projects = [
   {
     name: "GiveBack",
     technologies: ['HTML/CSS', 'JavaScript', 'React', 'Material UI', 'Express', 'Mongoose', 'MongoDB'],
-    description: "An organizational service aimed at helping bringing volunteers and organizations together.",
+    description: "An organizational service aimed at helping bring volunteers and organizations together.",
     github: "https://www.github.com/melissay94/GiveBack",
     liveDemo: "https://givebackvolunteer.herokuapp.com/",
     images:[{
