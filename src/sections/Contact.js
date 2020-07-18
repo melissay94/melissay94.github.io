@@ -12,8 +12,6 @@ export default function Contact() {
       <Row>
         <Col xs='12' md='6' className='tagline'>
           <img src='https://avatars2.githubusercontent.com/u/7768121?s=460&u=32c0fc6cc61163b9adbb7ec34511245465626461&v=4' alt='Developer Melissa Young' className='profile-pic' />
-          <h4>Looking for a developer??</h4>
-          <h4 className='highlight'>I'm looking for a career!!</h4>
         </Col>
         <Col xs='12' md='6' className='contact-info'>
           <Row>
@@ -21,7 +19,7 @@ export default function Contact() {
               <FontAwesomeIcon icon={faEnvelope} className='icon' />
             </Col>
             <Col xs='10'>
-              <h6>melissadcy@gmail.com</h6>
+              <h6 className="contact-line">melissadcy@gmail.com</h6>
             </Col>
           </Row>
           <Row>
@@ -29,7 +27,7 @@ export default function Contact() {
               <FontAwesomeIcon icon={faGithubSquare} className='icon' />
             </Col>
             <Col xs='10'>
-              <h6>
+              <h6 className="contact-line">
                 <a 
                   href='https://www.github.com/melissay94'
                   target='_blank'
@@ -44,7 +42,7 @@ export default function Contact() {
               <FontAwesomeIcon icon={faLinkedin} className='icon' />
             </Col>
             <Col xs='10'>
-              <h6>
+              <h6 className="contact-line">
                 <a 
                   href='https://www.linkedin.com/in/melissadcyoung/'
                   target='_blank'

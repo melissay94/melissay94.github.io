@@ -324,7 +324,7 @@ h2 {
 }
 
 #contact .row {
-  width: 100%;
+  margin-top: var(--section-top-padding);
 }
 
 .tagline, .contact-info {
@@ -335,24 +335,18 @@ h2 {
 }
 
 .tagline {
-  align-items: center;
-}
-
-.highlight {
-  color: var(--main-blue);
+  align-items: flex-end;
 }
 
 .contact-info .row {
   margin-bottom: 1.8em;
-  padding-left: var(--section-top-padding);
-  min-width: 395px;
+  margin-left: var(--section-side-padding);
 }
 
 .contact-info .row h6 {
   font-family: var(--main-font);
   font-size: 20px;
   font-weight: 400;
-  padding-left: var(--section-top-padding);
 }
 
 .contact-info svg {
@@ -360,11 +354,15 @@ h2 {
   font-size: 28px;
 }
 
+.contact-line {
+  margin-left: 1em;
+}
+
 .profile-pic {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin: var(--section-top-padding);
+  width: 250px;
+  height: 250px;
+  margin-right: var(--section-side-padding);
 }
 
 footer {

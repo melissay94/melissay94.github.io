@@ -30,15 +30,6 @@ export default function Navigation() {
         <NavItem>
           <NavLink href="#contact">Contact Me</NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink 
-            href='http://melissay94.github.io/YoungMelissaResume.pdf' 
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Resume
-          </NavLink>
-        </NavItem>
         </Nav>
       </Collapse>
     </Navbar>
